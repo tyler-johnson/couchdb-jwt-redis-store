@@ -14,7 +14,10 @@
 		"prepublish": "npm run lint && npm run build",
 		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"ms": "~0.7.1",
+		"redis": "~2.4.2"
+	},
 	"devDependencies": {
 		"babel-preset-es2015-rollup": "~1.1.1",
 		"jshint": "~2.9.1",
@@ -24,5 +27,8 @@
 		"semantic-release": "^4.3.5"
 	},
 	"keywords": [],
-	"license": "MIT"
+	"license": "MIT",
+	"optionalDependencies": {
+		"hiredis": "~0.4.1"
+	}
 }
