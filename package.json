@@ -1,5 +1,5 @@
 {
-	"name": "couchdb-jwt-redis-store",
+	"name": "couchdb-jwt-store-redis",
 	"description": "A Redis-backed session store for couchdb-jwt.",
 	"author": "Tyler Johnson <tyler@tylerjohnson.me>",
 	"repository": {
