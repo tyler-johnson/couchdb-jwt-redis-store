@@ -1,4 +1,4 @@
-# Couchdb JWT Redis Session Store
+# CouchDB JWT Redis Session Store
 
 [![npm](https://img.shields.io/npm/v/couchdb-jwt-store-redis.svg)](https://www.npmjs.com/package/couchdb-jwt-store-redis) [![David](https://img.shields.io/david/tyler-johnson/couchdb-jwt-redis-store.svg)](https://david-dm.org/tyler-johnson/couchdb-jwt-redis-store) [![Build Status](https://travis-ci.org/tyler-johnson/couchdb-jwt-redis-store.svg?branch=master)](https://travis-ci.org/tyler-johnson/couchdb-jwt-redis-store)
 
