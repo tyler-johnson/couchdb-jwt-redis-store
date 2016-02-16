@@ -1,0 +1,1 @@
+# couchdb-jwt-redis-store
