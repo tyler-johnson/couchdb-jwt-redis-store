@@ -1,7 +1,7 @@
 import ms from "ms";
 import {createClient} from "redis";
 
-export default class RedisStore {
+class RedisStore {
 	constructor(options={}) {
 		this.prefix = options.prefix == null ? 'jwt:' : options.prefix;
 		delete options.prefix;
@@ -101,4 +101,9 @@ export default class RedisStore {
 			});
 		});
 	}
+}
+
+export default function createRedisStore(options) {
+	let store = new RedisStore(options);
+	return store.load().then(() => store);
 }
